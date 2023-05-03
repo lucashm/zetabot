@@ -1,0 +1,26 @@
+{
+  "name": "mbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenv nodemon",
+    "watch": "node esbuild.mjs && node build/index.js",
+    "build": "node esbuild.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv-cli": "^7.2.1",
+    "esbuild": "0.17.18",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0"
+  }
+}
